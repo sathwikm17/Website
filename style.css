@@ -1,0 +1,211 @@
+body{
+  background-size: cover;
+  background-image: linear-gradient( to bottom right,rgba(153,50,204,0.8),navy ,red , green,magenta,brown,peachpuff);
+}
+.top{
+  color: white;
+  text-align: center;
+  margin:5px;
+  padding: 5px;
+}
+.header-content {
+  margin: 5px;
+  padding: 5px;
+  background: url(images/Purpbg.jpg);
+  background-size: cover;
+
+}
+
+img{
+  width: 400px;
+  height: 350px;
+  border-radius: 50%;
+}
+#myname{
+  font-family: Algerian;
+  font-size: 25pt;
+  color: #00bfa5;
+}
+table{
+  width: cover;
+  height:cover;
+  padding: 50px;
+}
+ td{
+   padding: 25px;
+   width:50%;
+   height: cover;
+   align-items: center;
+ }
+.desc{
+  font-family: 'Times New Roman',sans-serif;
+  font-size: 20pt;
+  color:#ffd700;
+}
+#androidimg{
+  width: 30px;
+  height: 30px;
+  border-radius: 40%;
+}
+.detail{
+  font-size: 25px;
+  font-family: 'Arial Narrow','Monotype-corsiva';
+  color:#eee8aa;
+}
+button{
+  width:100%;
+  height: 40px;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  color: #40241a;
+  text-shadow: 2px;
+  background-color: #ffd0b0;
+  font-size: 20px;
+  font-weight: bold;
+  cursor:pointer;
+  border: 0;
+  margin: auto;
+
+}
+button:hover{
+  background-color: #ff9e80;
+  color: #154360;
+  text-shadow:4px ;
+  font-size:25px;
+}
+#skilldiv{
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  display: none;
+}
+.contentimg{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.contentimg:hover{
+  width:150px;
+  height: 150px;
+  transition: ease-in 0.5s;
+}
+.tablecon{
+  width: cover;
+  height: 250px;
+  margin: 10px;
+  padding: 5px;
+  align-items: center;
+  background: #fff;
+
+
+}
+a{
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+
+}
+#bottom{
+  display: none;
+  background-color: rgba(255,255,255,0.8);
+  font-size: 30pt;
+  padding: 10px;
+
+}
+.Interests{
+  font-family: 'Monotype corsiva',serif;
+  font-size: 25px;
+  background: orange;
+  margin: 10px;
+  padding: 15px;
+  align-items: center;
+  display: block;
+  text-align: center;
+
+}
+.imgcont{
+  font-size: 25px;
+  font-family: 'Algerian';
+}
+p{
+  word-wrap: break-word;
+  font-family: 'Monotype Corsiva',cursive;
+  font-size: 25px;
+}
+#footer{
+  display:none;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(194,237,237,0.8);
+  color: white;
+  align-items: center;
+  align-content: center;
+
+}
+.contact{
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  margin: 5px;
+  padding: 5px;
+
+}
+#footer img:hover{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  transform: rotate(360deg);
+  transition: ease-in 0.6s;
+}
+#footer a{
+  width: 25%;
+  text-align: center;
+  /* background: #fff; */
+}
+.theme{
+  background-image: radial-gradient( red,yellow);
+  margin: 5px;
+  padding: 5px;
+}
+label{
+  font-size: 25px;
+  font-family: 'Monotype corsiva'
+
+}
+.theme span{
+  align:left;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Algerian';
+}
+.checkbox{
+  opacity: 0;
+  position: absolute;
+}
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+
+}
+
+.label{
+  background-color: #292c35;
+  display: flex;
+  height: 26px;
+  width: 50px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+}
+.ball{
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.4s linear;
+}
