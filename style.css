@@ -1,6 +1,6 @@
 body{
   background-size: cover;
-  background-image: linear-gradient( to bottom right,rgba(153,50,204,0.8),navy ,red , green,magenta,brown,peachpuff);
+  background-image: #303030;
 }
 .top{
   color: white;
